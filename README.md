@@ -30,7 +30,12 @@ Base44 (AI-assisted site builder), Make.com, Webhooks, Google Drive, Google Docs
 The exported Make.com scenario is in `package-enquiry-scenario-blueprint.json`. Webhook URLs, connection IDs, folder IDs and contact details have been replaced with placeholders.
 
 ## What I learned
-(Add 2-3 lines in your own words. For example: what was hardest, or what you'd improve.)
+- How to map website form data into Google Doc templates, so each client gets a personalised proposal with their name and chosen services filled in.
+- How to chain several tools (webhook, Drive, Docs, Gmail) into one workflow, and how to test it end to end so an error in one step doesn't break the client's experience.
 
+## What I'd improve next
+- Add Claude (via the API) to write a short personalised summary of each enquiry for the team.
+- Log every enquiry to a database or sheet, and send an alert if any step fails.
+  
 ## Built by
 Molebogeng Matipwili, AI automation specialist
